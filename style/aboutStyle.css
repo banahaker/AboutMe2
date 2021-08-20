@@ -20,7 +20,6 @@ body {
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 100px;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 100px;
@@ -65,5 +64,18 @@ a {
     border: none;
     outline: none;
     cursor: pointer;
-    box-shadow: #00ffea 10px 25px 100px 12px;;
+    box-shadow: #00ffea 10px 25px 100px 12px;
+    animation: shake 1.5s infinite;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
