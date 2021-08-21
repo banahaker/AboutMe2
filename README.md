@@ -1,4 +1,6 @@
 # AboutMe
+## 網址 URL
+https://banahaker.github.io/AboutMe2/
 ## About 
 LAZPbanahaker  
 一個懵懂的青少年，擅長前端程式，Js為主要工具，PYTHON為次要工具<br>
