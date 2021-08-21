@@ -28,7 +28,7 @@ h1 {
 }
 
 p {
-    max-width: 85vh;
+    max-width: 85vw;
     height: auto;
     font-style: normal;
     font-weight: 400;
@@ -36,12 +36,14 @@ p {
     line-height: 42px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    padding: 50px;
+    padding: 20px;
+    margin: 0;
 }
 
 @media screen and (max-width: 600px) {
     p {
         font-size: 30px;
+        max-width: 85vh;
     }
 }
 
